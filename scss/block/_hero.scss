@@ -1,0 +1,69 @@
+// img {
+//   max-width: 1280px;
+//   max-height: 600px;
+
+//   border-radius: 10px;
+//   position: relative;
+// }
+.hero {
+  width: 100%;
+  min-height: 600px;
+  margin-top: 45px;
+  background-image: url(../images/hero_bg.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  // position: absolute;
+  padding: 117px 0 116px 85px;
+
+  &__title {
+    width: 329px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    color: #fefcf7;
+    margin-bottom: 24px;
+  }
+  &__desc {
+    width: 398px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 55px;
+  }
+  &__button {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #fefcf7;
+    padding: 15px 31px;
+
+    background: #0e8784;
+    border-radius: 6px;
+    border: none;
+  }
+}
+@media only screen and (max-weight: 1260px) {
+  .container {
+    margin: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    background-image: url(../images/hero_bg.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+}

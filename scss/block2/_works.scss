@@ -1,0 +1,53 @@
+.works {
+  margin-top: 300px;
+}
+.Works__desc {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+.works__imgs {
+  display: flex;
+  margin-top: 52px;
+}
+.works__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+.works__cord {
+  width: 285px;
+  margin-right: 110px;
+}
+
+.Works__cord__desceaption {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+.works__cord__litle {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-top: 32px;
+}
+.works__cord__desc {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}

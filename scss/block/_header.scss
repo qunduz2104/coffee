@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 44px;
+}
+.nav {
+  width: 283px;
+  display: flex;
+  align-items: center;
+
+  &__list {
+    width: 493px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list_item {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+
+    color: #83888f;
+  }
+  &__item {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+
+    color: #83888f;
+  }
+  &__item_us {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+
+    color: black;
+  }
+  &__item:hover {
+    color: blueviolet;
+  }
+  &__item_us:hover {
+    color: blueviolet;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .header {
+    margin: 0 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    .hamburger-menu {
+      display: block;
+    }
+    .nav__list {
+      display: none;
+    }
+    .nav__logo {
+      width: 163px;
+      height: 18px;
+    }
+  }
+}

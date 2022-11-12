@@ -1,0 +1,30 @@
+.hero {
+  width: 100%;
+  min-height: 600px;
+  margin-top: 45px;
+  background-image: url(../images/Bitmap.jpg);
+  background-repeat: no-repeat;
+  padding: 117px 0 116px 85px;
+  border-radius: 10px;
+}
+.hero_title {
+  width: 150px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fefcf7;
+}
+.hero_desc {
+  width: 398px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fefcf7;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}

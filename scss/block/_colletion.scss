@@ -1,0 +1,57 @@
+.colletion {
+  width: 100%;
+  position: relative;
+  margin-top: 126px;
+
+  &__img {
+    width: 100%;
+    min-height: 196px;
+    position: relative;
+    z-index: -1;
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 150px;
+  }
+  &__list {
+    width: 25%;
+    margin-right: 30px;
+  }
+  &__title {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #333d4b;
+    margin-top: 42px;
+  }
+  &__desc {
+    width: 225px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #333d4b;
+    margin-top: 24px;
+  }
+}
+// @media only screen and (max-weight: 1280px) {
+//   .colletion {
+//     margin: 0 40px;
+//   }
+// }
+@media only screen and(max-width:600px) {
+  .colletion__box {
+    display: flex;
+    flex-direction: column;
+  }
+}
